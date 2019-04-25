@@ -13,7 +13,7 @@ params.mf_num  = 5;                            % if multi-frames' restraints ava
 params.r_time = 1.0;                           % regulation term for frames' restraints
 params.mfl_interv = 2;                         % learning intervals for multi-frame /frame
 % context similarity's restraints
-params.context_l_interv = 5;                   % learning intervals for context similarity /frame
+params.context_l_interv = 10;                   % learning intervals for context similarity /frame
 params.r_similar = 1.0;                        % regulation term for similarity
 params.lambda1 = 1e-4;
 params.lambda2 = 1/(16^2);

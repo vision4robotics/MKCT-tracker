@@ -124,6 +124,10 @@ for frame = 1:num_frames
             response_cf{1} = mexResize(response_cf{1}, p.norm_delta_area,'auto');
             response_cf{2} = mexResize(response_cf{2}, p.norm_delta_area,'auto');
         end
+        
+        % resolution enhancement
+        response_cf{1} = REO(response_cf{1}, 3);
+        response_cf{2} = REO(response_cf{2}, 3);
         p1 = adaptive_weight(response_cf{1});
         p2 = adaptive_weight(response_cf{2});
         sum_p = p1 + p2;
@@ -131,10 +135,8 @@ for frame = 1:num_frames
         response_cf_all = ...
             (p1.*response_cf{1}./max(response_cf{1}(:))) + ...
             (p2.*response_cf{2}./max(response_cf{2}(:)));
+        response = response_cf_all;
         center = (1+p.norm_delta_area) / 2;
-        
-        % resolution enhancement
-        response = REO(response_cf_all, 3);
         
         [row, col] = find(response == max(response(:)));
         row = row(1);
