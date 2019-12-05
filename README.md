@@ -10,9 +10,9 @@
 
 The following are the results from the experiment conducted on 100 challenging sequences extracted from UAV123@10fps.
 
-![Prec](.\result\Prec.png)
+![Prec](./result/Prec.png)
 
-![Succ](.\result\Succ.png)
+![Succ](./result/Succ.png)
 
 ## Instructions
 
