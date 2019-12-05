@@ -6,6 +6,14 @@
 
 > Matlab implementation of *Robust multi-kernelized correlators for UAV tracking with adaptive context analysis and dynamic weighted filters* (MKCT-tracker).
 
+## Results
+
+The following are the results from the experiment conducted on 100 challenging sequences extracted from UAV123@10fps.
+
+![Prec](.\result\Prec.png)
+
+![Succ](.\result\Succ.png)
+
 ## Instructions
 
 1. Enter `/model` folder and run `vgg_19_dl.m` to download `imagenet-vgg-verydeep-19.mat` from [here](http://www.vlfeat.org/matconvnet/models/imagenet-vgg-verydeep-19.mat).
