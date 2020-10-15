@@ -14,6 +14,17 @@ You can find this paper here: https://link.springer.com/article/10.1007/s00521-0
 
 Please cite it as:
 
+@article{Fu2020Robust, 
+
+title={Robust multi-kernelized correlators for UAV tracking with adaptive context analysis and dynamic weighted filters}, 
+
+author={Fu, Changhong and He, Yujie and Lin Fuling and Xiong Weijiang}, 
+
+journal={Neural Computing and Applications}, 
+
+year={2020} 
+
+}
 
 ## Results
 
