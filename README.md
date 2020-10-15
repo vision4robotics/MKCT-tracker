@@ -6,6 +6,15 @@
 
 > Matlab implementation of *Robust multi-kernelized correlators for UAV tracking with adaptive context analysis and dynamic weighted filters* (MKCT-tracker).
 
+## Publication and Citation
+
+This paper has been published by Neural Computing and Applications.
+
+You can find this paper here: https://link.springer.com/article/10.1007/s00521-020-04716-x.
+
+Please cite it as:
+
+
 ## Results
 
 The following are the results from the experiment conducted on 100 challenging sequences extracted from UAV123@10fps.
